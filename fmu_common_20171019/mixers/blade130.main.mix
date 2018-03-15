@@ -1,0 +1,17 @@
+Helicopter Cyclic-Collective-Pitch Mixing (CCPM) for PX4FMU
+Blade 130x helicopter has longer servo arms left and right. The front servo arm is shortest and has normalized length 10000.
+==================================================
+
+H: 3
+T:    0  2500  5000  7500  10000                
+P:    0  1500  3000  4500  6000
+
+# Swash plate servos:
+S:    180  10000  -10000      0  -8000   8000
+S:     60  10000   10000      0  -8000   8000
+S:    300  10000  -10000      0  -8000   8000
+
+# Tail servo:
+M: 1
+O:      10000  10000      0 -10000  10000
+S: 0 2  10000  10000      0 -10000  10000
